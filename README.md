@@ -18,7 +18,7 @@
 
 1. 安装 [Bob社区版](https://v0.bobtranslate.com/#/general/quickstart/install) (版本 >= 0.50)
 
-2. 下载此插件: [GPT做题家](https://github.com/yetone/bob-plugin-openai-translator/releases)
+2. 下载此插件: [GPT做题家](https://github.com/guoyaol/GptSolver/releases/download/first_version/Zuoti.bobplugin.zip)
 3. 安装此插件:
 
 ![](https://user-images.githubusercontent.com/1206493/219937302-6be8d362-1520-4906-b8d6-284d01012837.gif)
