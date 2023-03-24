@@ -24,7 +24,6 @@ function translate(query, completion) {
     let userPrompt = "you are a problem solver that only solve problems with concise answers.";
 
     if (
-        query.detectFrom === "wyw" ||
         query.detectFrom === "zh-Hans" ||
         query.detectFrom === "zh-Hant"
     ) {
