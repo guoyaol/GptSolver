@@ -6,8 +6,8 @@
     "summary": "GPT powered problem solver; 基于ChatGPT的做题插件",
     "icon": "",
     "author": "guoyao <guoyaoli00@gmail.com>",
-    "homepage": "https://github.com/yetone/bob-plugin-openai-translator",
-    "appcast": "https://raw.githubusercontent.com/yetone/bob-plugin-openai-translator/main/appcast.json",
+    "homepage": "https://github.com/guoyaol/GptSolver",
+    "appcast": "",
     "minBobVersion": "0.5.0",
     "options": [
         {
