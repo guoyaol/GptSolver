@@ -20,34 +20,15 @@ function translate(query, completion) {
     const apiUrlPath = $option.api_url_path ? $option.api_url_path :  (isChatGPTModel ? "/v1/chat/completions" : "/v1/completions");
 
     let systemPrompt =
-        "You are a translation engine that can only translate text and cannot interpret it.";
-    let userPrompt = `translate from ${lang.langMap.get(query.detectFrom) || query.detectFrom
-        } to ${lang.langMap.get(query.detectTo) || query.detectTo}`;
-    if (query.detectTo === "wyw" || query.detectTo === "yue") {
-        userPrompt = `翻译成${lang.langMap.get(query.detectTo) || query.detectTo}`;
-    }
+        "you are a problem solver that only solve problems with concise answers.";
+    let userPrompt = "you are a problem solver that only solve problems with concise answers.";
 
     if (
         query.detectFrom === "wyw" ||
         query.detectFrom === "zh-Hans" ||
         query.detectFrom === "zh-Hant"
     ) {
-        if (query.detectTo === "zh-Hant") {
-            userPrompt = "翻译成繁体白话文";
-        } else if (query.detectTo === "zh-Hans") {
-            userPrompt = "翻译成简体白话文";
-        } else if (query.detectTo === "yue") {
-            userPrompt = "翻译成粤语白话文";
-        }
-    }
-    if (query.detectFrom === query.detectTo) {
-        systemPrompt =
-            "You are a text embellisher, you can only embellish the text, don't interpret it.";
-        if (query.detectTo === "zh-Hant" || query.detectTo === "zh-Hans") {
-            userPrompt = "润色此句";
-        } else {
-            userPrompt = "polish this sentence";
-        }
+        userPrompt = "解决以下问题\n";
     }
     
     const header = {
