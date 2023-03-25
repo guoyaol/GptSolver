@@ -1,5 +1,5 @@
-# GptSolver GPT小镇做题家
-基于ChatGPT开发的做题软件
+# GptSolver GPT做题家
+基于ChatGPT开发的做题插件（目前支持Mac OS）
 ----------------------------
 
 
