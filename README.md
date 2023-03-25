@@ -6,7 +6,7 @@
 
 # 使用截图
 
-![](https://user-images.githubusercontent.com/1206493/221086195-f1ed941d-4dfa-4aa0-9d47-56c258a8f854.gif)
+![](showcase.gif)
 
 # 简介
 
