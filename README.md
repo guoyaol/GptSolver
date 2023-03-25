@@ -33,5 +33,5 @@
 
 ![](./assets/showcase.gif)
 
-向代码模板提供者yetone致敬
+向参考的yetone致敬
 https://github.com/yetone/bob-plugin-openai-translator
