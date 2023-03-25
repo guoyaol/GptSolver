@@ -1,4 +1,4 @@
-# GptSolver GPT做题家
+# GptSolver：GPT做题家
 基于ChatGPT开发的做题插件（目前支持Mac OS）
 ----------------------------
 
