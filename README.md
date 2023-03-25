@@ -6,7 +6,7 @@
 
 # 使用截图
 
-![](showcase.gif)
+![](./assets/showcase.gif)
 
 # 简介
 
@@ -21,17 +21,17 @@
 2. 下载此插件: [GPT做题家](https://github.com/guoyaol/GptSolver/releases/download/first_version/Zuoti.bobplugin.zip)
 3. 安装此插件:
 
-![](https://user-images.githubusercontent.com/1206493/219937302-6be8d362-1520-4906-b8d6-284d01012837.gif)
+![](./assets/install.gif)
 
 4. 去 [OpenAI](https://platform.openai.com/account/api-keys) 获取你的 API KEY
 5. 把 API KEY 填入 Bob 此插件配置界面的 API KEY
  输入框中
 
-![](https://user-images.githubusercontent.com/1206493/219937398-8e5bb8d2-7dc8-404a-96e7-a937e08c939f.gif)
+![](./assets/add.gif)
 
 6. 划词，按下option & D，成功解题
 
-![](showcase.gif)
+![](./assets/showcase.gif)
 
 向代码模板提供者yetone致敬
 https://github.com/yetone/bob-plugin-openai-translator
