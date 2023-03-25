@@ -31,7 +31,7 @@
 
 6. 划词，按下option & D，成功解题
 
-![](https://user-images.githubusercontent.com/1206493/219933584-d0c2b6cf-8fa0-40a6-858f-8f4bf05f38ef.gif)
+![](showcase.gif)
 
 向代码模板提供者yetone致敬
 https://github.com/yetone/bob-plugin-openai-translator
